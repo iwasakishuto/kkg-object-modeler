@@ -1,0 +1,648 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 14145.5,
+    "width": 100.0,
+    "height": 2630.0,
+    "corner": [
+     0,
+     0,
+     0
+    ],
+    "operation": "new",
+    "name": "Frame",
+    "body_name": "Frame"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1775.5,
+    "width": 102.0,
+    "height": 1820.0,
+    "corner": [
+     30.0,
+     -1,
+     0.0
+    ],
+    "operation": "cut",
+    "name": "CutBay1L",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1775.5,
+    "width": 102.0,
+    "height": 720.0,
+    "corner": [
+     30.0,
+     -1,
+     1880.0
+    ],
+    "operation": "cut",
+    "name": "CutBay1U",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 102.0,
+    "height": 1820.0,
+    "corner": [
+     1865.5,
+     -1,
+     0.0
+    ],
+    "operation": "cut",
+    "name": "CutBay2L",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 102.0,
+    "height": 720.0,
+    "corner": [
+     1865.5,
+     -1,
+     1880.0
+    ],
+    "operation": "cut",
+    "name": "CutBay2U",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 102.0,
+    "height": 1820.0,
+    "corner": [
+     3733.5,
+     -1,
+     0.0
+    ],
+    "operation": "cut",
+    "name": "CutBay3L",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 102.0,
+    "height": 720.0,
+    "corner": [
+     3733.5,
+     -1,
+     1880.0
+    ],
+    "operation": "cut",
+    "name": "CutBay3U",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 102.0,
+    "height": 1820.0,
+    "corner": [
+     5601.5,
+     -1,
+     0.0
+    ],
+    "operation": "cut",
+    "name": "CutBay4L",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 102.0,
+    "height": 720.0,
+    "corner": [
+     5601.5,
+     -1,
+     1880.0
+    ],
+    "operation": "cut",
+    "name": "CutBay4U",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 102.0,
+    "height": 1820.0,
+    "corner": [
+     7469.5,
+     -1,
+     0.0
+    ],
+    "operation": "cut",
+    "name": "CutBay5L",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 102.0,
+    "height": 720.0,
+    "corner": [
+     7469.5,
+     -1,
+     1880.0
+    ],
+    "operation": "cut",
+    "name": "CutBay5U",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 706.5,
+    "width": 102.0,
+    "height": 1820.0,
+    "corner": [
+     9337.5,
+     -1,
+     0.0
+    ],
+    "operation": "cut",
+    "name": "CutBay6L1",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 706.5,
+    "width": 102.0,
+    "height": 720.0,
+    "corner": [
+     9337.5,
+     -1,
+     1880.0
+    ],
+    "operation": "cut",
+    "name": "CutBay6U1",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1500.0,
+    "width": 102.0,
+    "height": 2100.0,
+    "corner": [
+     10104.0,
+     -1,
+     0.0
+    ],
+    "operation": "cut",
+    "name": "CutBay6L2",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1500.0,
+    "width": 102.0,
+    "height": 400.0,
+    "corner": [
+     10104.0,
+     -1,
+     2200.0
+    ],
+    "operation": "cut",
+    "name": "CutBay6U2",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 706.5,
+    "width": 102.0,
+    "height": 1820.0,
+    "corner": [
+     11664.0,
+     -1,
+     0.0
+    ],
+    "operation": "cut",
+    "name": "CutBay6L3",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 706.5,
+    "width": 102.0,
+    "height": 720.0,
+    "corner": [
+     11664.0,
+     -1,
+     1880.0
+    ],
+    "operation": "cut",
+    "name": "CutBay6U3",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1685.0,
+    "width": 102.0,
+    "height": 1820.0,
+    "corner": [
+     12430.5,
+     -1,
+     0.0
+    ],
+    "operation": "cut",
+    "name": "CutBay7L",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1685.0,
+    "width": 102.0,
+    "height": 720.0,
+    "corner": [
+     12430.5,
+     -1,
+     1880.0
+    ],
+    "operation": "cut",
+    "name": "CutBay7U",
+    "targets": [
+     "Frame"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1775.5,
+    "width": 26.0,
+    "height": 1820.0,
+    "corner": [
+     30.0,
+     37.0,
+     0.0
+    ],
+    "operation": "new",
+    "name": "GlassBay1L",
+    "body_name": "GlassBay1L"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1775.5,
+    "width": 22.0,
+    "height": 720.0,
+    "corner": [
+     30.0,
+     39.0,
+     1880.0
+    ],
+    "operation": "new",
+    "name": "GlassBay1U",
+    "body_name": "GlassBay1U"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 26.0,
+    "height": 1820.0,
+    "corner": [
+     1865.5,
+     37.0,
+     0.0
+    ],
+    "operation": "new",
+    "name": "GlassBay2L",
+    "body_name": "GlassBay2L"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 22.0,
+    "height": 720.0,
+    "corner": [
+     1865.5,
+     39.0,
+     1880.0
+    ],
+    "operation": "new",
+    "name": "GlassBay2U",
+    "body_name": "GlassBay2U"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 26.0,
+    "height": 1820.0,
+    "corner": [
+     3733.5,
+     37.0,
+     0.0
+    ],
+    "operation": "new",
+    "name": "GlassBay3L",
+    "body_name": "GlassBay3L"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 22.0,
+    "height": 720.0,
+    "corner": [
+     3733.5,
+     39.0,
+     1880.0
+    ],
+    "operation": "new",
+    "name": "GlassBay3U",
+    "body_name": "GlassBay3U"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 26.0,
+    "height": 1820.0,
+    "corner": [
+     5601.5,
+     37.0,
+     0.0
+    ],
+    "operation": "new",
+    "name": "GlassBay4L",
+    "body_name": "GlassBay4L"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 22.0,
+    "height": 720.0,
+    "corner": [
+     5601.5,
+     39.0,
+     1880.0
+    ],
+    "operation": "new",
+    "name": "GlassBay4U",
+    "body_name": "GlassBay4U"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 26.0,
+    "height": 1820.0,
+    "corner": [
+     7469.5,
+     37.0,
+     0.0
+    ],
+    "operation": "new",
+    "name": "GlassBay5L",
+    "body_name": "GlassBay5L"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1808.0,
+    "width": 22.0,
+    "height": 720.0,
+    "corner": [
+     7469.5,
+     39.0,
+     1880.0
+    ],
+    "operation": "new",
+    "name": "GlassBay5U",
+    "body_name": "GlassBay5U"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 706.5,
+    "width": 26.0,
+    "height": 1820.0,
+    "corner": [
+     9337.5,
+     37.0,
+     0.0
+    ],
+    "operation": "new",
+    "name": "GlassBay6L1",
+    "body_name": "GlassBay6L1"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 706.5,
+    "width": 22.0,
+    "height": 720.0,
+    "corner": [
+     9337.5,
+     39.0,
+     1880.0
+    ],
+    "operation": "new",
+    "name": "GlassBay6U1",
+    "body_name": "GlassBay6U1"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1500.0,
+    "width": 22.0,
+    "height": 400.0,
+    "corner": [
+     10104.0,
+     39.0,
+     2200.0
+    ],
+    "operation": "new",
+    "name": "GlassBay6U2",
+    "body_name": "GlassBay6U2"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 706.5,
+    "width": 26.0,
+    "height": 1820.0,
+    "corner": [
+     11664.0,
+     37.0,
+     0.0
+    ],
+    "operation": "new",
+    "name": "GlassBay6L3",
+    "body_name": "GlassBay6L3"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 706.5,
+    "width": 22.0,
+    "height": 720.0,
+    "corner": [
+     11664.0,
+     39.0,
+     1880.0
+    ],
+    "operation": "new",
+    "name": "GlassBay6U3",
+    "body_name": "GlassBay6U3"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1685.0,
+    "width": 26.0,
+    "height": 1820.0,
+    "corner": [
+     12430.5,
+     37.0,
+     0.0
+    ],
+    "operation": "new",
+    "name": "GlassBay7L",
+    "body_name": "GlassBay7L"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 1685.0,
+    "width": 22.0,
+    "height": 720.0,
+    "corner": [
+     12430.5,
+     39.0,
+     1880.0
+    ],
+    "operation": "new",
+    "name": "GlassBay7U",
+    "body_name": "GlassBay7U"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 777.5,
+    "width": 5.0,
+    "height": 2097.0,
+    "corner": [
+     10084.0,
+     -20,
+     0
+    ],
+    "operation": "new",
+    "name": "LeafL",
+    "body_name": "LeafL"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 777.5,
+    "width": 5.0,
+    "height": 2097.0,
+    "corner": [
+     10846.5,
+     -30,
+     0
+    ],
+    "operation": "new",
+    "name": "LeafR",
+    "body_name": "LeafR"
+   }
+  }
+ ]
+}

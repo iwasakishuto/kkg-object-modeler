@@ -1,0 +1,110 @@
+{
+ "commands": [
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "W",
+    "expression": "1100.0 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "H",
+    "expression": "800.0 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "D",
+    "expression": "70.0 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "sill",
+    "expression": "1500.0 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "jamb",
+    "expression": "44.0 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "rail_b",
+    "expression": "146.0 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "rail_t",
+    "expression": "67.0 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "glass",
+    "expression": "17.8 mm"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "W",
+    "width": "D",
+    "height": "H",
+    "corner": [
+     0,
+     0,
+     "sill"
+    ],
+    "operation": "new",
+    "name": "Frame",
+    "body_name": "Frame"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "W - 2*jamb",
+    "width": "D + 2",
+    "height": "H - rail_b - rail_t",
+    "corner": [
+     "jamb",
+     -1,
+     "sill + rail_b"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Frame"
+    ],
+    "name": "Opening"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "W - 2*jamb",
+    "width": "glass",
+    "height": "H - rail_b - rail_t",
+    "corner": [
+     "jamb",
+     "(D - glass)/2",
+     "sill + rail_b"
+    ],
+    "operation": "new",
+    "name": "Glass",
+    "body_name": "Glass"
+   }
+  }
+ ]
+}

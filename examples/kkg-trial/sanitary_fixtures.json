@@ -1,0 +1,96 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 440,
+    "width": 400,
+    "height": 275,
+    "corner": [
+     0,
+     0,
+     0
+    ],
+    "operation": "new",
+    "name": "ServiceSink",
+    "body_name": "ServiceSink"
+   }
+  },
+  {
+   "command": "solid.shell",
+   "params": {
+    "faces": [
+     [
+      220,
+      200,
+      275
+     ]
+    ],
+    "thickness": 10.0,
+    "body": "ServiceSink"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 610,
+    "width": 310,
+    "height": 600,
+    "corner": [
+     800,
+     0,
+     -600
+    ],
+    "operation": "new",
+    "name": "GreaseTrap",
+    "body_name": "GreaseTrap"
+   }
+  },
+  {
+   "command": "solid.shell",
+   "params": {
+    "faces": [
+     [
+      1105,
+      155,
+      0
+     ]
+    ],
+    "thickness": 5.0,
+    "body": "GreaseTrap"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 610,
+    "width": 310,
+    "height": 5,
+    "corner": [
+     800,
+     0,
+     0
+    ],
+    "operation": "new",
+    "name": "GreaseTrapLid",
+    "body_name": "GreaseTrapLid"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 620,
+    "width": 620,
+    "height": 120,
+    "corner": [
+     1700,
+     0,
+     0
+    ],
+    "operation": "new",
+    "name": "SinkBase",
+    "body_name": "SinkBase"
+   }
+  }
+ ]
+}
