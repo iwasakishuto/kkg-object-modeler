@@ -1,0 +1,179 @@
+{
+ "window_smoke_exhaust": {
+  "Frame": {
+   "volume": 20016920.0,
+   "bbox": [
+    [
+     0,
+     0,
+     1500.0
+    ],
+    [
+     1100.0,
+     70.0,
+     2300.0
+    ]
+   ]
+  },
+  "Glass": {
+   "volume": 10573983.200000001,
+   "bbox": [
+    [
+     44.0,
+     26.1,
+     1646.0
+    ],
+    [
+     1056.0,
+     43.9,
+     2233.0
+    ]
+   ]
+  },
+  "_source": "schedule 2R-AW: W1100 H800 depth70 sill FL+1500, opening 1012x587, glazing 17.8"
+ },
+ "window_smoke_exhaust_resized": {
+  "Frame": {
+   "volume": 25105920.0,
+   "bbox": [
+    [
+     0,
+     0,
+     1500.0
+    ],
+    [
+     1400.0,
+     70.0,
+     2400.0
+    ]
+   ]
+  },
+  "Glass": {
+   "volume": 16043923.200000001
+  },
+  "_source": "same window, W and H changed to 1400 x 900 after building"
+ },
+ "storefront_auto_door": {
+  "Frame": {
+   "volume": 270469500.0,
+   "bbox": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     14145.5,
+     100.0,
+     2630.0
+    ]
+   ]
+  },
+  "LeafL": {
+   "volume": 8152087.5
+  },
+  "LeafR": {
+   "volume": 8152087.5
+  },
+  "GlassBay1L": {
+   "volume": 84016660.0
+  },
+  "GlassBay1U": {
+   "volume": 28123920.0
+  },
+  "GlassBay2L": {
+   "volume": 85554560.0
+  },
+  "GlassBay2U": {
+   "volume": 28638720.0
+  },
+  "GlassBay3L": {
+   "volume": 85554560.0
+  },
+  "GlassBay3U": {
+   "volume": 28638720.0
+  },
+  "GlassBay4L": {
+   "volume": 85554560.0
+  },
+  "GlassBay4U": {
+   "volume": 28638720.0
+  },
+  "GlassBay5L": {
+   "volume": 85554560.0
+  },
+  "GlassBay5U": {
+   "volume": 28638720.0
+  },
+  "GlassBay6L1": {
+   "volume": 33431580.0
+  },
+  "GlassBay6U1": {
+   "volume": 11190960.0
+  },
+  "GlassBay6U2": {
+   "volume": 13200000.0
+  },
+  "GlassBay6L3": {
+   "volume": 33431580.0
+  },
+  "GlassBay6U3": {
+   "volume": 11190960.0
+  },
+  "GlassBay7L": {
+   "volume": 79734200.0
+  },
+  "GlassBay7U": {
+   "volume": 26690400.0
+  },
+  "_source": "schedule 1-AW: W14145.5 H2630 depth100, 7 bays, transom FL+1820, auto door 2x777.5 DH2097"
+ },
+ "sanitary_fixtures": {
+  "ServiceSink": {
+   "volume": 6106000.0,
+   "bbox": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     440,
+     400,
+     275
+    ]
+   ]
+  },
+  "GreaseTrap": {
+   "volume": 6360000.0,
+   "bbox": [
+    [
+     800,
+     0,
+     -600
+    ],
+    [
+     1410,
+     310,
+     0
+    ]
+   ]
+  },
+  "GreaseTrapLid": {
+   "volume": 945500
+  },
+  "SinkBase": {
+   "volume": 46128000
+  },
+  "_source": "fixture schedule: SK500 440x400x275, grease trap 610x310x600, base 620x620x120"
+ },
+ "drain_pipe_chamber": {
+  "DrainPipe": {
+   "volume": 2041707.310169662
+  },
+  "Chamber": {
+   "volume": 2279618.169261094
+  },
+  "_source": "chamber list: small chamber 150 dia; pipe VP50 assumed; route assumed"
+ }
+}

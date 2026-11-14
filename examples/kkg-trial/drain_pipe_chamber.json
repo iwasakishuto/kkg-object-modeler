@@ -1,0 +1,125 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "Route"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      -600.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.three_point",
+   "params": {
+    "start": [
+     0,
+     -600.0
+    ],
+    "through": [
+     43.93398282201787,
+     -706.0660171779821
+    ],
+    "end": [
+     150.0,
+     -750.0
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      150.0,
+      -750.0
+     ],
+     [
+      2150.0,
+      -750.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.pipe",
+   "params": {
+    "path_sketch": "Route",
+    "path": [
+     "l1",
+     "a1",
+     "l2"
+    ],
+    "diameter": 60.0,
+    "wall": 4.1,
+    "operation": "new",
+    "name": "DrainPipe",
+    "body_name": "DrainPipe"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 160,
+    "height": 900,
+    "base": [
+     2230.0,
+     0,
+     -1050.0
+    ],
+    "operation": "new",
+    "name": "Chamber",
+    "body_name": "Chamber"
+   }
+  },
+  {
+   "command": "solid.shell",
+   "params": {
+    "faces": [
+     [
+      2230.0,
+      0,
+      -150.0
+     ]
+    ],
+    "thickness": 5,
+    "body": "Chamber"
+   }
+  }
+ ]
+}
